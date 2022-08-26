@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		63BF43D91258CE101E459966 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "37_video_h264" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06CBE380D84BD873CB343CB0 /* moc_audiothread.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E1E125F8043A2862893389D9 /* moc_audiothread.cpp */; settings = {ATTRIBUTES = (); }; };
+		16D6F95A403C585F91D73828 /* lib in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 89C2DCE29556C15279029CC4 /* lib */; };
+		189623AD5C6BE5774A42824D /* moc_mainwindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3CB37F076233F208FD5EC12E /* moc_mainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		33D4F28B9AFD309665848DA0 /* audiothread.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E43D9F00B07BC88B310EF702 /* audiothread.cpp */; settings = {ATTRIBUTES = (); }; };
+		4ECD0CF3777CD8A1EAB5CE3E /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 31ED679368A25AD3446932A3 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		5C37F2D7FCF0C2BE6152C5A2 /* mainwindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 792B57C8E432D733D1D29F2F /* mainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		5DF56DDFCCA909592495F51D /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3A69D0F924E9E39462E49229 /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		75A08C36DAAEBDDE21B68349 /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DC04A60F4621450A31097291 /* QtGui.framework */; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		9FA78EC76C92029AC0895D5D /* ffmpegs.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B0021B2F0A316FBE1BAF068C /* ffmpegs.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		ADB9B9F04ECBD33209BC2E78 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 68F4E99EDBE7642A5326625B /* QtWidgets.framework */; };
+		B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1B2543FCC48E9436F21C4F63 /* Metal.framework */; };
+		C4C630B4C8DE0815A78E3A64 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 292F3C380EF780267F58D0C5 /* QtCore.framework */; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 723F90793B2C195E2CCB2233 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61C4543528B67895002030A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63BF43D91258CE101E459966;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99542592E9780B9225F24AA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B2543FCC48E9436F21C4F63 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /System/Library/Frameworks/Metal.framework; sourceTree = "<absolute>"; };
+		292F3C380EF780267F58D0C5 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		31ED679368A25AD3446932A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/main.cpp; sourceTree = "<absolute>"; };
+		3507B6A7895415F4E76B1960 /* ffmpegs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ffmpegs.h; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/ffmpegs.h; sourceTree = "<absolute>"; };
+		3A69D0F924E9E39462E49229 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /Users/cloud/Documents/Qt/5.14.2/clang_64/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
+		3CB37F076233F208FD5EC12E /* moc_mainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mainwindow.cpp; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/moc_mainwindow.cpp; sourceTree = "<absolute>"; };
+		68F4E99EDBE7642A5326625B /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		723F90793B2C195E2CCB2233 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		73E38CCF0CB499D5FF288FC5 /* audiothread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = audiothread.h; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/audiothread.h; sourceTree = "<absolute>"; };
+		792B57C8E432D733D1D29F2F /* mainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mainwindow.cpp; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/mainwindow.cpp; sourceTree = "<absolute>"; };
+		79A767923F6B954C2BE54E6D /* 37_video_h264.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = 37_video_h264.pro; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/37_video_h264.pro; sourceTree = "<absolute>"; };
+		89C2DCE29556C15279029CC4 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = /usr/local/ffmpeg/lib; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		9B0DBF2DB208E2455AE69DEA /* 37_video_h264.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 37_video_h264.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		B0021B2F0A316FBE1BAF068C /* ffmpegs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ffmpegs.cpp; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/ffmpegs.cpp; sourceTree = "<absolute>"; };
+		B131A81E26E38C1DE3E40247 /* ui_mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_mainwindow.h; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/ui_mainwindow.h; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DC04A60F4621450A31097291 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		E1E125F8043A2862893389D9 /* moc_audiothread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_audiothread.cpp; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/moc_audiothread.cpp; sourceTree = "<absolute>"; };
+		E43D9F00B07BC88B310EF702 /* audiothread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = audiothread.cpp; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/audiothread.cpp; sourceTree = "<absolute>"; };
+		F62AED8FAF6FD75F3CE14D3F /* mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mainwindow.h; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/mainwindow.h; sourceTree = "<absolute>"; };
+		FACF262BB08B61360F7A46B3 /* mainwindow.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mainwindow.ui; path = /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/mainwindow.ui; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D6F95A403C585F91D73828 /* lib in Link Binary With Libraries */,
+				ADB9B9F04ECBD33209BC2E78 /* QtWidgets.framework in Link Binary With Libraries */,
+				75A08C36DAAEBDDE21B68349 /* QtGui.framework in Link Binary With Libraries */,
+				F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */,
+				B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */,
+				C4C630B4C8DE0815A78E3A64 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E908B8A1C3C07C115504F5 /* Sources [uic] */ = {
+			isa = PBXGroup;
+			children = (
+				FACF262BB08B61360F7A46B3 /* mainwindow.ui */,
+			);
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E1E125F8043A2862893389D9 /* moc_audiothread.cpp */,
+				3CB37F076233F208FD5EC12E /* moc_mainwindow.cpp */,
+				B131A81E26E38C1DE3E40247 /* ui_mainwindow.h */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E43D9F00B07BC88B310EF702 /* audiothread.cpp */,
+				B0021B2F0A316FBE1BAF068C /* ffmpegs.cpp */,
+				31ED679368A25AD3446932A3 /* main.cpp */,
+				792B57C8E432D733D1D29F2F /* mainwindow.cpp */,
+				73E38CCF0CB499D5FF288FC5 /* audiothread.h */,
+				3507B6A7895415F4E76B1960 /* ffmpegs.h */,
+				F62AED8FAF6FD75F3CE14D3F /* mainwindow.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A767923F6B954C2BE54E6D /* 37_video_h264.pro */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89C2DCE29556C15279029CC4 /* lib */,
+				68F4E99EDBE7642A5326625B /* QtWidgets.framework */,
+				DC04A60F4621450A31097291 /* QtGui.framework */,
+				723F90793B2C195E2CCB2233 /* AppKit.framework */,
+				1B2543FCC48E9436F21C4F63 /* Metal.framework */,
+				292F3C380EF780267F58D0C5 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */ = {
+			isa = PBXGroup;
+			children = (
+				3A69D0F924E9E39462E49229 /* dummy.cpp */,
+			);
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* 37_video_h264 */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */,
+				12E908B8A1C3C07C115504F5 /* Sources [uic] */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = 37_video_h264;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0DBF2DB208E2455AE69DEA /* 37_video_h264.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53E946D1992F74094C8BAF7 /* 37_video_h264 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "37_video_h264" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+				99542592E9780B9225F24AA8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111E103F07C063A316658266 /* PBXTargetDependency */,
+			);
+			name = 37_video_h264;
+			productName = 37_video_h264;
+			productReference = 9B0DBF2DB208E2455AE69DEA /* 37_video_h264.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63BF43D91258CE101E459966 = {
+						DevelopmentTeam = Z29237TAHW;
+					};
+					A53E946D1992F74094C8BAF7 = {
+						DevelopmentTeam = Z29237TAHW;
+					};
+				};
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "37_video_h264" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* 37_video_h264 */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53E946D1992F74094C8BAF7 /* 37_video_h264 */,
+				63BF43D91258CE101E459966 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264 -f 37_video_h264.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264 -f 37_video_h264.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D4F28B9AFD309665848DA0 /* audiothread.cpp in Compile Sources */,
+				9FA78EC76C92029AC0895D5D /* ffmpegs.cpp in Compile Sources */,
+				4ECD0CF3777CD8A1EAB5CE3E /* main.cpp in Compile Sources */,
+				5C37F2D7FCF0C2BE6152C5A2 /* mainwindow.cpp in Compile Sources */,
+				06CBE380D84BD873CB343CB0 /* moc_audiothread.cpp in Compile Sources */,
+				189623AD5C6BE5774A42824D /* moc_mainwindow.cpp in Compile Sources */,
+				5DF56DDFCCA909592495F51D /* dummy.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111E103F07C063A316658266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63BF43D91258CE101E459966 /* Qt Preprocess */;
+			targetProxy = 61C4543528B67895002030A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Z29237TAHW;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib,
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/usr/local/ffmpeg/include,
+					/Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/../sysroots/usr/include,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtGui.framework/Headers,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					"/Users/cloud/Documents/Qt/5.14.2/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/ffmpeg,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib,
+					/System/Library/Frameworks/,
+					/usr/local/ffmpeg/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/Users/cloud/Documents/Qt/5.14.2/clang_64/lib",
+					"-F/Users/cloud/Documents/Qt/5.14.2/clang_64/lib",
+					"-L",
+					"-lswresample",
+					"-lavdevice",
+					"-lavformat",
+					"-lavcodec",
+					"-lavutil",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeanVision-Studio.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = 37_video_h264;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Z29237TAHW;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib,
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/usr/local/ffmpeg/include,
+					/Users/cloud/Documents/QtDev/C_CPP/Codes/Xcode_Qt/37_video_h264/../sysroots/usr/include,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtGui.framework/Headers,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					"/Users/cloud/Documents/Qt/5.14.2/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/ffmpeg,
+					/Users/cloud/Documents/Qt/5.14.2/clang_64/lib,
+					/System/Library/Frameworks/,
+					/usr/local/ffmpeg/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/Users/cloud/Documents/Qt/5.14.2/clang_64/lib",
+					"-F/Users/cloud/Documents/Qt/5.14.2/clang_64/lib",
+					"-L",
+					"-lswresample",
+					"-lavdevice",
+					"-lavformat",
+					"-lavcodec",
+					"-lavutil",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeanVision-Studio.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = 37_video_h264;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Z29237TAHW;
+				ENABLE_BITCODE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "LeanVision-Studio.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = 37_video_h264;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Z29237TAHW;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "LeanVision-Studio.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = 37_video_h264;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "37_video_h264" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "37_video_h264" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}
