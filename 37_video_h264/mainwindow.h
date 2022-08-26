@@ -21,6 +21,7 @@ private:
 
 private slots:
     void on_audioButton_clicked();
+    void on_naluButton_clicked();
 
 private:
     Ui::MainWindow *ui;

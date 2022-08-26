@@ -24,6 +24,7 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QPushButton *audioButton;
+    QPushButton *naluButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -37,6 +38,9 @@ public:
         audioButton = new QPushButton(centralwidget);
         audioButton->setObjectName(QString::fromUtf8("audioButton"));
         audioButton->setGeometry(QRect(70, 410, 112, 32));
+        naluButton = new QPushButton(centralwidget);
+        naluButton->setObjectName(QString::fromUtf8("naluButton"));
+        naluButton->setGeometry(QRect(200, 410, 112, 32));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -55,6 +59,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         audioButton->setText(QCoreApplication::translate("MainWindow", "\350\247\206\351\242\221\347\274\226\347\240\201", nullptr));
+        naluButton->setText(QCoreApplication::translate("MainWindow", "NALU", nullptr));
     } // retranslateUi
 
 };

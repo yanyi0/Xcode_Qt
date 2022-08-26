@@ -25,3 +25,8 @@ void MainWindow::on_audioButton_clicked()
     _audioThread = new AudioThread(this);
     _audioThread->start();
 }
+
+void MainWindow::on_naluButton_clicked()
+{
+    qDebug() << "点击按钮 on_naluButton_clicked" << QThread::currentThread();
+}
